@@ -63,11 +63,14 @@ MONGO_URI = mongodb+srv://<username>:<password>@cluster0.mongodb.net/
 
 ### Clone the repository
 git clone https://github.com/your_username/medical-assistant-chatbot.git
+
 cd medical-assistant-chatbot
 
 ### Install dependencies
 conda create -n medichat python=3.10
+
 conda activate medichat
+
 pip install -r requirements.txt
 
 ### Start FastAPI backend
