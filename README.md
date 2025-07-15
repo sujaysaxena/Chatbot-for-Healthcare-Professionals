@@ -53,6 +53,48 @@ This project solves:
 
 ---
 
+## 🔒 MongoDB Atlas Setup (for Auth & Logging)
+Ensure .env or system environment variable contains:
+MONGO_URI = mongodb+srv://<username>:<password>@cluster0.mongodb.net/
+
+---
+
+## 💻 Local Setup
+
+### Clone the repository
+git clone https://github.com/your_username/medical-assistant-chatbot.git
+cd medical-assistant-chatbot
+
+### Install dependencies
+conda create -n medichat python=3.10
+conda activate medichat
+pip install -r requirements.txt
+
+### Start FastAPI backend
+uvicorn main:app --reload
+
+### Launch Streamlit frontend
+streamlit run frontend/streamlit_app.py
+
+---
+
+## 🧪 Testing
+Test each endpoint with curl or Postman
+
+Validate:
+
+  - Registration/login flow
+
+  - Upload PDF and get summary
+
+  - Upload image and get response
+
+  -  Submit text query and retrieve knowledge
+
+  - Verify MongoDB users and query_logs collections
+
+---
+
 ## 🏗️ System Architecture
 
 ```plaintext
@@ -63,9 +105,5 @@ User ↔ Streamlit UI ↔ FastAPI Backend ↔ MongoDB Atlas
               ├────────────── PDF Handler (RAG Summary)
               │
               └────────────── Text Handler (RAG Query on FAISS)
-
----
-
-## 🔒 MongoDB Atlas Setup (for Auth & Logging)
 
 ---
