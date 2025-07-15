@@ -63,3 +63,9 @@ User ↔ Streamlit UI ↔ FastAPI Backend ↔ MongoDB Atlas
               ├────────────── PDF Handler (RAG Summary)
               │
               └────────────── Text Handler (RAG Query on FAISS)
+
+---
+
+## 🔒 MongoDB Atlas Setup (for Auth & Logging)
+
+---
