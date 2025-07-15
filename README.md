@@ -98,6 +98,25 @@ Validate:
 
 ---
 
+## 📸 Demo Screenshots
+
+### 🔐 Login & Registration
+![Login Page]
+![Screenshot 2025-07-15 120659](https://github.com/user-attachments/assets/5690def0-81f0-484c-8186-21b5fc20b3f2)
+![Screenshot 2025-07-15 121247](https://github.com/user-attachments/assets/6828080c-8368-4cc1-ad14-4be931d859ee)
+
+### 💬 Text-Based Medical Query
+![Text Chat]
+![Screenshot 2025-07-15 121411](https://github.com/user-attachments/assets/34342430-b4cb-426c-be94-c2d8ba4c8995)
+
+### 📄 PDF Upload & Summary
+![PDF Upload]
+![Screenshot 2025-07-15 122224](https://github.com/user-attachments/assets/62b0d9e9-9805-475e-b90e-40873f313a40)
+
+### 🖼️ Image Upload
+![Image Upload]
+![Screenshot 2025-07-15 121815](https://github.com/user-attachments/assets/e2ad1f88-48fe-4999-818d-d922eb6ccb53)
+
 ## 🏗️ System Architecture
 
 ```plaintext
@@ -110,3 +129,4 @@ User ↔ Streamlit UI ↔ FastAPI Backend ↔ MongoDB Atlas
               └────────────── Text Handler (RAG Query on FAISS)
 
 ---
+
