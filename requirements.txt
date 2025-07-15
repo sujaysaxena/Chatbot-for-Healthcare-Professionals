@@ -1,0 +1,35 @@
+# Backend
+fastapi
+uvicorn
+python-multipart
+pydantic
+pymongo
+motor
+tqdm
+python-dotenv
+python-jose
+pydantic[email]
+
+# LangChain + OpenAI
+langchain
+langchain-community
+langchain-openai
+openai
+faiss-cpu
+tiktoken
+passlib
+passlib[bcrypt]
+
+# PDF & OCR
+pypdf
+pytesseract
+pdfplumber
+
+# Image Captioning
+transformers
+torch
+Pillow
+
+# Streamlit UI
+streamlit
+requests
